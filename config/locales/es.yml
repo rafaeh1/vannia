@@ -1,0 +1,42 @@
+en:
+    spree:
+      summary: "Resumen"
+      products: "Productos"
+      product: "Producto"
+      price: "Precio"
+      quantity: "Cantidad"
+      total: "Total"
+      use_billing_address: "Usar dirección de facturación"
+      search: "Buscar"
+      continue_shopping: "Continuar comprando"
+      cart: "Carrito de compras"
+      cart_page:
+        header: "Tu carrito de compras"
+        empty_info: "Tu carrito está vacío"
+        checkout: "Continuar"
+      nav_bar: 
+        my_account: "My cuenta"
+        log_out: "Cerrar sesión"
+        log_in: "Iniciar sesión"
+        sign_up: "Crear cuenta"
+      homepage:
+        shop_now: "Comprar"
+      #user
+      new_customer: "Crear cuenta"
+      log_in_to_continue: "Iniciar sesión"
+      password: "contraseña"
+      log_in: "Continuar"
+      forgot_password: "Olvidaste tu contraseña?"
+      dont_have_account: "¿Aún no tienes una cuenta?"
+      already_have_account: "Ya tienes cuenta?"
+      sign_up: "Crea una"
+      or: "o"
+      continue_as_guest: "Continuar como invitado"
+      remember_me: "Recordarme"
+      confirm_password: "Confirmar contraseña"
+      # plp:
+      #   home: "Inicio"
+      # continue_shopping: "Continuar comprando"  
+      pdp:
+        view_cart: "Ver carrito"
+      
