@@ -1,5 +1,21 @@
 en:
   spree:
+    my_orders:
+    add_new_address: 
+    number: 
+    date:
+    status:
+    payment_state:
+    shipment_state:
+    order_success:
+    order_success_explain: "Your order information will be sent to your email"
+    shipping_address:
+    billing_address:
+    save_and_continue:
+    shipping:
+    payment:
+    store_credit_name:
+    order_summary:
     summary:
     products:
     product:
@@ -13,6 +29,13 @@ en:
     cart_page:
       header: "Your shopping bag"
       empty_info:
+      summary:
+      products:
+      product:
+      price: 
+      quantity: 
+      total:
+      add_promo_code: "Código de promoción"
       checkout: "Checkout"
     nav_bar: 
       my_account:
@@ -34,6 +57,9 @@ en:
     continue_as_guest:
     remember_me: "Remember me"
     confirm_password: Password confirmation
-    # plp: 
-    #   home: "Home"
-    # continue_shopping: "continue_shopping"
+    plp: 
+      home: "Home"
+      continue_shopping: "continue_shopping"
+    pdp:
+      view_cart:
+    promotion_label: "Promo code"
