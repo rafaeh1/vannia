@@ -1,5 +1,12 @@
 en:
   spree:
+    contact_us:
+    description:
+    details:
+    availability:
+    in_stock:
+    out_of_stock:
+    added_to_cart:
     my_orders:
     add_new_address: 
     number: 
@@ -44,6 +51,7 @@ en:
       sign_up:
     homepage:
       shop_now: "shop_now"
+      main: "Discover the beauty of details"
     #user
     new_customer:
     log_in_to_continue:

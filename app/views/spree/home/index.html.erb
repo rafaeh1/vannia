@@ -4,11 +4,11 @@
   <img class="lazyload hero-image position-absolute"
     data-src="<%= asset_path('homepage/main_banner.jpg') %>"
     data-srcset="<%= image_source_set('homepage/main_banner') %>"
-    alt="<%= Spree.t('homepage.summer_collection')%>" />
+    alt="<%= Spree.t('homepage.main')%>" />
 
-  <div class="hero-content">
+  <div class="hero-content" id="main_banner_text">
     <div class="homepage-hero-image-text mb-2 mx-auto pb-3 pb-md-4">
-      <%= Spree.t('homepage.summer_collection') %>
+      <%= Spree.t('homepage.main') %>
     </div>
     <div>
       <%= link_to Spree.t('homepage.shop_now'), spree.products_path, class: 'btn btn-primary spree-btn px-5' %>
@@ -67,6 +67,8 @@
   </div>
 </div>
 
+<% if false %>
+
 <div data-product-carousel data-product-carousel-taxon-id='bestsellers' class="my-3"></div>
 
 <div class="homepage-fashion-trends-box mb-3">
@@ -82,6 +84,9 @@
 
 
 <div data-product-carousel data-product-carousel-taxon-id='trending' class="mb-3"></div>
+
+
+<% end %>
 
 <div class="container">
   <div class="row">

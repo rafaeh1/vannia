@@ -21,6 +21,15 @@ bundle exec rake spree_sample:load
 bundle exec rails g spree:frontend:copy_storefront
 ```
 
+## :gear:  Setup
+
+```
+bundle exec rake vannia:create_store
+bundle exec rake vannia:tropicalize_app
+bundle exec rake vannia:create_taxonomies
+```
+
+
 ##  :rocket: Example
 ```
 # Enter into project folder
