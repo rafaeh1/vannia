@@ -15,9 +15,9 @@ namespace :vannia do
       meta_keywords: 'joyería, plata, plateria, regalos, anillos',
       mail_from_address: 'rafah.larios@gmail.com',
       default_currency: 'USD', #update this
-      facebook: 'https://www.facebook.com/accesorios.vannia',
-      instagram: 'https://www.instagram.com/accesorios.vannia/', 
-      twitter: 'https://twitter.com/'
+      facebook: 'accesorios.vannia',
+      instagram: 'accesorios.vannia/', 
+      twitter: 'rafah_larios'
     })
 
     puts ">>>Done!"
