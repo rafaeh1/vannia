@@ -8,3 +8,8 @@
  *= require_self
  *= require_tree .
 */
+
+#main_banner_text {
+    color: white;
+}
+
