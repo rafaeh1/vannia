@@ -52,6 +52,9 @@ en:
     homepage:
       shop_now: "Comprar"
       main: "Enámorate de los pequeños detalles"
+      rings: "Anillos"
+      collars: "Collares"
+      sets: "Sets"
     #user
     new_customer: "Crear cuenta"
     log_in_to_continue: "Iniciar sesión"

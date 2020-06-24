@@ -10,3 +10,9 @@ Rails.application.routes.draw do
   mount Spree::Core::Engine, at: '/'
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
 end
+
+#custom
+Spree::Core::Engine.add_routes do
+  get '/taxonomies/*id', to: 'taxons#show', as: :products_by_taxonomies
+end
+

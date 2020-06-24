@@ -52,6 +52,9 @@ en:
     homepage:
       shop_now: "shop_now"
       main: "Discover the beauty of details"
+      rings: 
+      collars:
+      sets: 
     #user
     new_customer:
     log_in_to_continue:
