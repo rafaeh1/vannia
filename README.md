@@ -15,18 +15,15 @@ Vannia is a custom spree store for [accesorios-vannia](https://www.instagram.com
 ## :bulb: Installation
 
 ```
-bundle exec rails db:migrate
-bundle exec rails db:seed
-bundle exec rake spree_sample:load
-bundle exec rails g spree:frontend:copy_storefront
+bundle exec rake db:create
+bundle exec rake db:migrate
+bundle exec rake db:setup
 ```
 
 ## :gear:  Setup
 
 ```
-bundle exec rake vannia:create_store
-bundle exec rake vannia:tropicalize_app
-bundle exec rake vannia:create_taxonomies
+bundle exec rake vannia:initialize
 ```
 
 

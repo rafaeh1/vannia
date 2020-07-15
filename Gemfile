@@ -57,3 +57,10 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'spree', '~> 4.1'
 gem 'spree_auth_devise', '~> 4.1'
 gem 'spree_gateway', '~> 3.7'
+#gem 'spree_mail_settings', github: 'spree-contrib/spree_mail_settings'
+#gem 'spree_mail_settings', github: 'rafaeh1/spree_mail_settings'
+
+
+#payment methos
+gem 'spree_paypal_express', github: 'spree-contrib/better_spree_paypal_express'
+#gem 'spree_conekta', github: 'rafaeh1/spree_conekta', branch: '3-0-stable'

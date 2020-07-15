@@ -1,5 +1,11 @@
 en:
   spree:
+    cart:
+      address: "Dirección"
+      delivery: "Envío"
+      payment: "Pago"
+      confirm:
+      complete:
     contact_us:
     description:
     details:
@@ -54,7 +60,10 @@ en:
       main: "Discover the beauty of details"
       rings: 
       collars:
-      sets: 
+      sets:
+    checkout_page:
+      back_to_cart:
+      delivery_method: 
     #user
     new_customer:
     log_in_to_continue:

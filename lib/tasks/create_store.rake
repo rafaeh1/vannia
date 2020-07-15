@@ -14,7 +14,7 @@ namespace :vannia do
       meta_description: 'Vannia es una joyería ubicada en Cotija Mich', 
       meta_keywords: 'joyería, plata, plateria, regalos, anillos',
       mail_from_address: 'rafah.larios@gmail.com',
-      default_currency: 'USD', #update this
+      default_currency: 'MXN', #update this
       facebook: 'accesorios.vannia',
       instagram: 'accesorios.vannia/', 
       twitter: 'rafah_larios'
@@ -25,3 +25,5 @@ namespace :vannia do
   end
 
 end
+
+#currency settings

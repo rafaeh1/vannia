@@ -1,5 +1,16 @@
 en:
   spree:
+    order_state:
+      cart:
+      address: "Dirección"
+      delivery: "Envío"
+      payment: "Pago"
+      confirm: "Confirmada"
+      complete:
+    required_fields: "Compos requeridos"
+    address: 
+    city: "Ciudad"
+    first_name: "Nombre"
     contact_us: "Contáctanos"
     description: "Descripción"
     details: "Detalles"
@@ -55,6 +66,10 @@ en:
       rings: "Anillos"
       collars: "Collares"
       sets: "Sets"
+    checkout_page:
+      back_to_cart: "Regresar al carrito"
+      delivery_method: "Método de envío"
+    back: "regresar"
     #user
     new_customer: "Crear cuenta"
     log_in_to_continue: "Iniciar sesión"
@@ -73,4 +88,3 @@ en:
       continue_shopping: "Continuar comprando"  
     pdp:
       view_cart: "Ver carrito"
-      
