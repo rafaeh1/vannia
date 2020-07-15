@@ -8,7 +8,7 @@ namespace :vannia do
     ActiveRecord::Base.connection.execute "TRUNCATE spree_option_types"
     puts "Clean spree_option_values"
     ActiveRecord::Base.connection.execute "TRUNCATE spree_option_values"
-    ActiveRecord::Base.connection.execute "TRUNCATE spree_option_values_variants"
+    ActiveRecord::Base.connection.execute "TRUNCATE spree_option_value_variants"
 
     puts "Creating colors"
     #Color.  #HEX COLOR IN OPTION VALUE PRESENTATION
