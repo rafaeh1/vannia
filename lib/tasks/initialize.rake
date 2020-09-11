@@ -11,6 +11,7 @@ namespace :vannia do
     Rake::Task["vannia:create_option_types"].invoke
     Rake::Task["vannia:create_properties"].invoke
     Rake::Task["vannia:create_prototypes"].invoke
+    Rake::Task["vannia:create_shipping_category"].invoke
     puts ">>>Done!"
   
   end
