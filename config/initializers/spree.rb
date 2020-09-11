@@ -13,9 +13,11 @@ Spree.config do |config|
   # Example:
   # Uncomment to stop tracking inventory levels in the application
   # config.track_inventory_levels = false
-  config.currency = 'MXN'
-  country = Spree::Country.find_by_name('México')
-  config.default_country_id = country.id if country.present?
+  if ActiveRecord::Base.connection.table_exists? ('spree_countries')
+    config.currency = 'MXN'
+    country = Spree::Country.find_by_name('México')
+    config.default_country_id = country.id if country.present?
+  end
 end
 
 # Configure Spree Dependencies
